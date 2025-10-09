@@ -20,7 +20,7 @@ async function seedDatabase(): Promise<void> {
       create: {
         name: tenantItem.name,
         createdAt: new Date(),
-        updated: new Date(), // 👈 coincide con tu schema (campo "updated")
+        updated: new Date(),
       },
     });
 
